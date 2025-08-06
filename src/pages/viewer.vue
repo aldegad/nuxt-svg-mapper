@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { PolyMapViewer } from "~svg-mapper/components";
+import { SvgMapViewer } from "~svg-mapper/components";
 </script>
 
 <template>
-  <PolyMapViewer />
+  <SvgMapViewer />
 </template>

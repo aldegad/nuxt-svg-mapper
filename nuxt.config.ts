@@ -1,5 +1,4 @@
-import { resolve } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, resolve } from "url";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
@@ -15,10 +14,10 @@ export default defineNuxtConfig({
   imports: {
     scan: false,
   },
-  ssr: false,
   devServer: {
     port: 3001,
   },
+  ssr: false,
   nitro: {
     static: true,
   },
