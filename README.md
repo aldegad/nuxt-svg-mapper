@@ -1,3 +1,5 @@
+> **이 패키지는 [vue-packages 모노레포](https://github.com/aldegad/nuxt-packages)의 일부로, 루트 저장소에서 통합 관리됩니다.**
+
 # SVG Mapper - SVG 기반 폴리곤/도면 에디터
 
 <div align="center">
@@ -33,8 +35,8 @@
 
 ```bash
 # 저장소 클론
-git clone <repository-url>
-cd svg-mapper
+git clone https://github.com/aldegad/nuxt-svg-mapper.git
+cd nuxt-svg-mapper
 ```
 
 #### 2. 의존성 설치
